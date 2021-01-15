@@ -1,0 +1,52 @@
+![Eye of Sauron](https://cssbattle.dev/targets/11.png)
+<div class="base">
+  <div class="left half-circle"></div>
+  <div class="circle outer">
+  	<div class="circle inner"></div>
+  </div>
+  <div class="right half-circle"></div>
+</div>
+
+<style>
+    .base {
+    transform: translate(-8px, -8px);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    background: #191210;
+  }
+  .half-circle {
+    width: 60px;
+    height: 30px; /* as the half of the width */
+    border-bottom-left-radius: 80px;  /* 100px of height + 10px of border */
+    border-bottom-right-radius: 80px; /* 100px of height + 10px of border */
+    border: 20px solid #ECA03D;
+    border-top: 0px;
+  }
+  .left {
+    transform: translate(20px, 25px);
+  }
+  .right {
+    transform: rotate(180deg) translate(20px, 25px);
+  }
+  .circle {
+    border-radius:50%;
+  }
+  .outer {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    width: 140px;
+    height: 140px;
+    background: #ECA03D;
+  }
+  .inner {
+    width:50px;
+    height:50px;
+    border:25px solid #191210;
+    background: #84271C;
+  }
+</style>

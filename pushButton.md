@@ -16,7 +16,7 @@
   }
   .circle {
    	position:absolute;
-    margin-left:67px;
+    margin-left:75px;
     margin-top: 25px;
     width: 150px;
     height: 150px;
@@ -32,7 +32,7 @@
     background: #EEB850;
   }
   .square {
-    margin-left:42px;
+    margin-left:50px;
     margin-top:75px;
     width: 300px;
     height: 150px;

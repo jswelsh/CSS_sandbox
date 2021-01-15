@@ -1,0 +1,18 @@
+![Simply Square](https://cssbattle.dev/targets/1.png)
+<div class="base">
+  <div class="square"></div>
+</div>
+
+<style>
+  .base {
+    transform: translate(-8px, -8px);
+    background: #5d3a3a;
+    height:300px;
+    width:400px;
+  }
+  .square {
+    width: 200px;
+    height: 200px;
+    background: #b5e0ba;
+  }
+</style>
