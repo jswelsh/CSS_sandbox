@@ -1,3 +1,4 @@
+![Acid Rain](https://cssbattle.dev/targets/5.png)
 <div class="base">
   <div class="drop circle" ></div>
   <div class="drop a" ></div>
@@ -19,8 +20,7 @@
     border-radius: 50% 0% 50% 50%;
   }
   .circle {
-	border-radius:50%;
- 
+    border-radius:50%;
     transform: translate(200px, 30px);
   }
   .a {

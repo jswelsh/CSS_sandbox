@@ -1,11 +1,14 @@
 ![Carom](https://cssbattle.dev/targets/2.png)
 <div class="base">
-  <div class="square a" ></div>
-  <div class="square b" ></div>
-  <div class="square c" ></div>
-  <div class="square d" ></div>
+  <div class="top">
+    <div class="square left"></div>
+    <div class="square right"></div>
+  </div>
+  <div class="bottom">
+    <div class="square left"></div>
+    <div class="square right"></div>
+  </div>
 </div>
-
 <style>
   .base {
     transform: translate(-8px, -8px);
@@ -19,20 +22,18 @@
     height: 50px;
     background: #fdc57b;
   }
-  .a {
-    margin-top:50px;
-    margin-left:42px;
+  .top {
+    display:flex;
+    transform: translate(0, 100%);
   }
-  .b {
-    margin-top:100px;
-    margin-left:42px;
+  .bottom {
+    display:flex;
+    transform: translate(0, 300%);
   }
-  .c {
-    margin-top: -50px;
-    margin-left: 292px;
+  .left {
+    transform: translate(100%);
   }
-  .d {
-    margin-top: -200px;
-    margin-left: 292px;
+  .right {
+    transform: translate(500%);
   }
 </style>
