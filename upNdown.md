@@ -1,0 +1,30 @@
+
+<div class="base">
+  <div class="node a" ></div>
+  <div class="node b" ></div>
+  <div class="node c" ></div>
+</div>
+
+<style>
+  .base {
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    background: #62306D;
+  }
+  .node {
+    width: 100px;
+    height: 100px;
+    background: #F7EC7D;
+    border-radius: 0px 0px 50% 50%
+  }
+  .a {
+    transform: translate(42px, 142px)
+  }
+  .b {
+    transform: rotatex(180deg) translate(142px, 58px);
+  }
+  .c {
+    transform: translate(242px, -58px);
+  }
+</style>
