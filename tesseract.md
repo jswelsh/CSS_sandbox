@@ -3,16 +3,17 @@
   <div class="banner"></div>
   <div class="square">
     <div class="inner">
-    	<div class="circle"></div>
+      <div class="circle"></div>
     </div>
   </div>
 </div>
 
 <style>
   .base {
+    transform: translate(-8px, -8px);
     display: flex;
     justify-content: center;
-  	align-items: center;
+    align-items: center;
     width: 400px;
     height: 300px;
     background: #222730;

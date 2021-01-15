@@ -8,6 +8,7 @@
 
 <style>
   .base {
+    transform: translate(-8px, -8px);
     position: absolute;
     width: 400px;
     height: 300px;
