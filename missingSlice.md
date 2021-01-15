@@ -1,3 +1,4 @@
+![Missing Slice](https://cssbattle.dev/targets/6.png)
 <div class="base">
 	<div class= 'top'>
    		<div class="pie a"></div>
@@ -7,7 +8,7 @@
 </div>
 
 <style>
-  .base {
+    .base {
     transform: translate(-8px, -8px);
     position: absolute;
     width: 400px;
@@ -15,8 +16,7 @@
     background: #E3516E;
   }
   .top{
-    margin-top:50px; 
-   	margin-left:92px;
+    transform: translate(100px, 50px);
     display:flex
   }
   .a {
@@ -27,13 +27,12 @@
     transform:rotate(90deg)
   }
   .c {
-   	margin-left:92px;
     background: #F7F3D7;
-    transform:rotate(270deg) 
+    transform: translate(100px, 50px) rotate(270deg); 
   }
    .pie {
     width: 100px;
     height: 100px;
-    border-radius: 120px 0px 0px 0px
+     border-radius: 120px 0px 0px 0px
   }
 </style>
