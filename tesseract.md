@@ -11,6 +11,7 @@
 
 <style>
   .base {
+    overflow:hidden;
     transform: translate(-8px, -8px);
     display: flex;
     justify-content: center;
