@@ -1,0 +1,62 @@
+![Cloaked Spirits](https://cssbattle.dev/targets/10.png)
+
+<div class="base">
+  <div class="pillar">
+    <div class="large dark circle">
+      <div class="small light circle"></div>
+    </div>
+  </div>
+  <div class="pillar tall"> 
+    <div class="large light circle">
+      <div class="small dark circle"></div>
+    </div>
+  </div>
+  <div class="pillar">
+    <div class="large dark circle">
+      <div class="small light circle"></div>
+    </div>
+  </div>
+</div>
+
+<style>
+  .base {
+    transform: translate(-8px, -8px);
+    display:flex;
+    align-items:flex-end;
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    background: #62306D;
+  }
+  .pillar {
+    transform: translate(50px);
+    width:100px;
+    height: 100px;
+    background: #F7EC7D;
+  }
+  .dark {
+    background: #AA445F;
+  }
+  .light {
+    background: #E38F66;
+  }
+  .small {
+    height: 60px;
+    width: 60px;
+ 	
+  }
+  .large {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    transform: translate(0px, -50px);
+    width: 100px;
+    height: 100px;
+  }
+  .circle {
+    border-radius:50%;
+  }
+  .tall {
+    height:200px;
+  }
+</style>

@@ -1,0 +1,54 @@
+![Wiggly Moustache](https://cssbattle.dev/targets/12.png)
+<div class="base">
+  <div class="left half-circle">
+    <div class="head circle"></div>
+  </div>
+  <div class="half-circle inner"></div>
+  <div class="right half-circle">
+    <div class="tail circle"></div>
+  </div>
+</div>
+
+<style>
+    .base {
+    transform: translate(-8px, -8px);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    background: #F5D6B4;
+  }
+  .half-circle {
+    width: 60px;
+    height: 30px; /* as the half of the width */
+    border-bottom-left-radius: 80px;  /* 100px of height + 10px of border */
+    border-bottom-right-radius: 80px; /* 100px of height + 10px of border */
+    border: 20px solid #D86F45;
+    border-top: 0
+  }
+  .inner {
+    transform: rotate(180deg) translate(0px, 25px);
+  }
+  .left {
+    transform: translate(20px, 25px);
+  }
+  .right {
+    transform: translate(-20px, 25px);
+  }
+  .circle {
+    height:20px;
+    width:20px;
+    background:#D86F45;
+    border-radius:50%;
+
+  }
+  .head {
+    transform: translate(-20px,-10px);
+  }
+  .tail {
+    transform: translate(60px,-10px);
+  }
+
+</style>
